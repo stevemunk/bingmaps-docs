@@ -32,7 +32,7 @@ Data that adheres to this JSON format can be displayed in the [Bing Maps V8 Web 
 | isGeoPositioned | boolean        |      | Whether this venue, once its coordinates are transformed, has geopositioned longitude, latitude values or engineering coordinates. |
 | defaultCulture  | string         |      | The culture that is used when a string has an empty culture or if this value is not specified, en-us is used as the default. |
 | name            | culture:string |      | Dictionary of culture-specific names for the venue where empty string for the key refers to the culture identified by the defaultCulture property. |
-| xy              | number[]       |      | An X,Y coordinate that, once transform is applied, defines a central location for the venue. |
+| center          | number[]       |      | An X,Y coordinate that, once transform is applied, defines a central location for the venue. |
 | address         | [address]      |      | |
 | phone           | string         |      | The phone number for the venue. |
 | defaultFloor    | integer        |      | The index of the floor to display as default, where the lowest floor is 1. |
